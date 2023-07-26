@@ -47,6 +47,12 @@ public class Phone {
         this.weight = weight;
     }
 
+    public void getInfo(String number, String model, double weight) {
+        System.out.println("Account number: " + getNumber());
+        System.out.println("Model phone: " + getModel());
+        System.out.println("Weight phone: " + getWeight());
+    }
+
     public void receiveCall(String name) {
         System.out.println("Calling " + name);
     }
