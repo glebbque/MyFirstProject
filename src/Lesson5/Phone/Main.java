@@ -26,7 +26,7 @@ public class Main {
 
         ph1.receiveCall("Slava");
         ph2.receiveCall("Katya");
-        ph3.receiveCall("Roman");
+        ph3.receiveCall("Roma");
         ph3.receiveCall("Petya", "3226441");
 
         ph1.sendMessage("324324234", "234234234", "342342356");
